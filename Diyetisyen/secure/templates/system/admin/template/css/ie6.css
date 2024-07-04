@@ -1,0 +1,141 @@
+form.jqtransformdone div.rowElem{
+	padding:2px 0px;
+}
+
+#LoginContent {
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	padding-top: 90px;
+	padding-left: 25px;
+}
+
+#WelcomeBar {
+	margin-left: 318px;
+}
+
+#BodyWrap {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#BodyTop, #BodyContent, #BodyBottom {
+	float: none;
+	margin: auto auto;
+}
+
+#Leftside {
+	float: left;
+	width: 650px;
+	margin-left: 6px;
+	margin-right: 3px;
+}
+
+#warning_okay img, #warning_error img, #warning_warn img {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#warning_okay, #warning_error, #warning_warn {
+	margin-right: 0px;
+}
+
+.MainMenuBar {
+	width: 928px;
+	margin-left: 5px;
+}
+
+.ui-tabs-panel {
+	width: 928px;
+}
+
+.trTitle td {
+	background-image: url(../images/blocks/td_title.gif);
+	background-repeat: no-repeat;
+}
+
+.tr1 td {
+	background-color: #f3f8fb;
+}
+
+.tr2 td {
+	background-image: url(../images/blocks/tr.gif);
+	background-repeat: repeat-x;
+}
+
+#RightSide {
+	width: 247px;
+	margin-left: 5px;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-left: 8px;
+	float: left;
+}
+
+.RightBlockBottom {
+	margin-left: 5px;
+}
+
+.RightTitles {
+	width: 248px;
+	float: none;
+}
+
+#BodyTop, #BodyContent, #BodyBottom, .DashboardHeader, .DashboardContent, .DashboardBottom  {
+	float: none;
+}
+
+.SideButton {
+	cursor: pointer;
+}
+
+/* gif images */
+
+#LoginPanel {
+	background-image: url(../images/ie/login.gif);
+}
+
+#BodyContent {
+	background-image: url(../images/ie/wrap_white.gif);
+}
+
+.SubmitButtons {
+	background-image: url(../images/ie/submit.gif);
+	cursor: pointer;
+}
+.ResetButtons {
+	background-image: url(../images/ie/rest.gif);
+	cursor: pointer;
+}
+.CancelButtons {
+	background-image: url(../images/ie/cancel.gif);
+	cursor: pointer;
+}
+.SubmitButtons:hover, .ResetButtons:hover, .CancelButtons:hover {
+	background-image: url(../images/ie/submit_hover.gif);
+}
+
+.SideButton {
+	background-image: url(../images/ie/side.gif);
+}
+.SideButton:hover {
+	background-image: url(../images/ie/side_hover.gif);
+}
+.SideButtonDisable {
+	background-image: url(../images/ie/side_disable.gif);
+}
+
+.ui-tabs-panel {
+	background-image: url(../images/ie/Tab_Content_Background.gif);
+}
+#PopDialog {
+	background-image: url(../images/ie/pop_dialog.gif);
+}
+
+/* gif images END*/
+
+#Copyright {
+	padding-top: 6px;
+	padding-bottom: 10px;
+}

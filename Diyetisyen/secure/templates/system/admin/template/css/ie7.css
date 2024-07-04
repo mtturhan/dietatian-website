@@ -1,0 +1,22 @@
+#BodyContent {
+	padding-bottom: 8px;
+}
+
+form.jqtransformdone div.rowElem{
+	padding:2px 0px;
+}
+
+.trTitle td {
+	background-image: url(../images/blocks/td_title.gif);
+	background-position:-5px 0px;
+	background-repeat: no-repeat;
+}
+
+.tr1 td {
+	background-color: #f3f8fb;
+}
+
+.tr2 td {
+	background-image: url(../images/blocks/tr.gif);
+	background-repeat: repeat-x;
+}

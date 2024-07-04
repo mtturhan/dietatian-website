@@ -1,0 +1,116 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="secure.master.cs" Inherits="secure_secure" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Yönetim paneli</title>
+    <link rel="stylesheet" type="text/css" href="style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="style/root.css" />
+    <link rel="stylesheet" type="text/css" href="style/grid.css" />
+    <link rel="stylesheet" type="text/css" href="style/typography.css" />
+    <link rel="stylesheet" type="text/css" href="style/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="style/jquery-plugin-base.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.11.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery-settings.js"></script>
+    <script type="text/javascript" src="js/toogle.js"></script>
+    <script type="text/javascript" src="js/jquery.tipsy.js"></script>
+    <script type="text/javascript" src="js/jquery.uniform.min.js"></script>
+    <script type="text/javascript" src="CKEditor/ckeditor.js"></script>
+    <script type="text/javascript" src="js/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="js/raphael.js"></script>
+    <script type="text/javascript" src="js/analytics.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+    <script type="text/javascript" src="js/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.core.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.mouse.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.slider.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.datepicker.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.tabs.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.accordion.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="js/jquery.dataTables.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="wrapper">
+            <div id="header">
+                <div class="logo">
+                    <a href="Anasayfa.aspx">
+                        <img src="img/logo.png" width="112" height="35" alt="logo" /></a>
+                </div>
+                <div id="notifications">
+                    <a href="Anasayfa.aspx" class="qbutton-left">
+                        <img src="img/icons/header/dashboard.png" width="16" height="15" alt="dashboard" title="Anasayfa" /></a>                    
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div id="main">
+                <div id="sidebar">
+                    <div id="sidemenu">
+                        <ul>
+                            <li><a class="action tips-right" href="Anasayfa.aspx" title="Yönetim Paneli Anasayfası İçin Tıklayınız">
+                                <img src="img/icons/header/dashboard.png" width="16" height="16" alt="icon" title="Yönetim Paneli Anasayfası İçin Tıklayınız" />Anasayfa</a></li>
+                            <li hidden><a class="action tips-right" href="Gelenler.aspx" title="Siteden Gelen Mesajları İnceleme ve Onaylama İşlemleri">
+                                <img src="img/icons/sidemenu/comment.png" width="16" height="16" alt="icon" title="Siteden Gelen Mesajları İnceleme ve Onaylama İşlemleri" />Gelen Mesajlar</a></li>
+
+                            <li><a class="action tips-right" href="Hakkimizda.aspx" title="Hakkımızda İçeriği">
+                                <img src="img/icons/sidemenu/download.png" width="16" height="16" alt="icon" title="Hakkımızda Misyon Vizyon İçeriği" />Hakkımızda</a></li>
+
+                            <li><a class="action tips-right" href="Iletisim.aspx" title="Diyetisyen İletişim İçeriği">
+                                <img src="img/icons/sidemenu/laptop.png" width="16" height="16" alt="icon" title="Diyetisyen İletişim İçeriği" />İletişim</a></li>
+
+                            <li><a class="action tips-right" href="Hizmetlerimiz.aspx" title="Diyetisyen Hizmetlerinin İçeriği">
+                                <img src="img/icons/sidemenu/laptop.png" width="16" height="16" alt="icon" title="Hizmetlerimiz İçeriği" />Hizmetlerimiz</a></li>
+
+                            <li><a class="action tips-right" href="Slider.aspx" title="Anasayfa Slider Resim Tanımlama">
+                                <img src="img/icons/sidemenu/image.png" width="16" height="16" alt="icon" title="Anasayfa Slider Resim Tanımlama" />Slider Resim</a></li>
+
+                            <li><a class="action tips-right" href="Sss.aspx" title="Sıkça Sorulan Sorular">
+                                <img src="img/icons/sidemenu/download.png" width="16" height="16" alt="icon" title="Sıkça Sorulan Sorular" />Sıkça Sorulan Sorular</a></li>
+                            
+                            <li><a class="action tips-right" href="Kategori.aspx" title="Tarif Kategorileri">
+                                <img src="img/icons/sidemenu/laptop.png" width="16" height="16" alt="icon" title="Tarif Kategorileri" />Kategori</a></li>
+
+                            <li><a class="action tips-right" href="Tarif.aspx" title="Tarif İçeriği">
+                                <img src="img/icons/sidemenu/star.png" width="16" height="16" alt="icon" title="Tarif İçeriğ" />Tarif</a></li>
+
+                            <li><a class="action tips-right" href="SiteSabitleri.aspx" title="Sitedeki Sabit Bilgilerin Tanımlanması İşlemleri">
+                                <img src="img/icons/sidemenu/magnify.png" width="16" height="16" alt="icon" title="Sitedeki Sabit Bilgilerin Tanımlanması İşlemleri" />Site Sabitleri</a></li>
+                            
+                            <li><a class="action tips-right" href="AdminTanim.aspx" title="Site Yöneticilerinin Tanımlanması İşlemleri">
+                                <img src="img/icons/sidemenu/key.png" title="Site Yöneticilerinin Tanımlanması İşlemleri" />Yönetici Tanım</a></li>
+
+                            <li><a class="action tips-right" href="#" target="_blank" title="Sitenin Normal Adresi İçin">
+                                <img src="img/icons/sidemenu/laptop.png" width="16" height="16" alt="icon" title="Sitenin Normal Adresi İçin" />Site Önizleme</a></li>
+
+                            <li><a class="action tips-right" href="Default.aspx" title="Yönetim Panelinden Çıkmak İçin Tıklayınız">
+                                <img src="img/icons/sidemenu/arrow_left.png" width="16" height="16" alt="icon" title="Yönetim Panelinden Çıkmak İçin Tıklayınız" />Çıkış</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="page">
+                    <div class="content">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="footer">
+                <div class="left-column">© Copyright 2024 - Her Hakkı Saklıdır.</div>
+                <div class="right-column">By <a href="#" target="_blank">Mustafa</a></div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,46 @@
+/* Admin Sepet Gösterimi */
+.sepet { width:100%; font-size:11px; font-family:Tahoma; }
+.sepet th { color:#88c337; text-align:center; padding:5px; }
+.sepet table td { padding:0px; }
+.sepet .tr_alternate { background-color:#f5f4f1; }
+.sepet td { text-align:center; padding:5px; }
+.sepet span { color:#ec001f; text-decoration:underline; cursor:pointer;  }
+.sepet .table td { padding:0px; padding-left:3px; padding-right:3px;}
+.sepet .urun a {  }
+.sepetToplam { text-align:right; margin-right:2px; margin-top:10px;  font-family:Tahoma; }
+.sepetToplam table { border:1px solid #dbdbdb; text-align:left; width:370px; font-size:11px; }
+.sepetToplam table .td1 { width:270px;  }
+.sepetToplam table td { padding-left:4px; }
+.sepetToplam table .toplam { color:#ec001f; font-weight:bold; }
+.sepet th,.sepet td { color:#555555; text-align:left; }
+.sepet .tr_alternate { background-color:#f5f4f1; }
+.sepet a { text-decoration:none }
+.sepet a:hover { text-decoration:underline }
+.sepet .urun { text-align:left; }
+div.DefaultTitleBrown { color:#555; margin-bottom:10px; margin-top:10px; text-decoration:underline }
+ul.DefaultTitleGreen { margin-top:3px; margin-bottom:3px; list-style-image:url(images/buld.gif);  margin-left:26px;  }
+ul.DefaultTitleGreen li a { color:#0066cc; font-size:11px;  font-weight:normal;  }
+ul.DefaultTitleGreen li { margin-top:3px; margin-bottom:3px; }
+form { display:inline; }
+.comments { margin-top:10px; overflow:auto;}
+.comments .sep { height:1px; background-color:#dddddd; }
+.comments .username { padding-left:5px; }
+.comments .tarih { color:#cccccc; font-size:9px; height:15px; padding-bottom:5px; }
+.comments .aciklama2 { padding:5px; }
+.sepetToplam table { float:right; margin-bottom:12px; clear:both; }
+.sepetToplam table td { padding:2px; }
+
+.adminBasket { padding:4px; border:1px solid #ebebeb; margin-bottom:12px; background-color:#fbfbfb; }
+
+/* XML Güncelleme */
+#xmlUpdate { display:inline; }
+#xmlPer { color:white; white-space:nowrap; text-align:right; padding:4px; width:0px; height:18px; position:relative; padding-top:8px; }
+.xmlPerTD { width:408px; background-color:#999999; overflow:hidden; height:18px; position:relative; }
+.xmlWaitTD { width:54px;text-align:right; }
+#ViewLogFile { display:none; width:647px; height:50px; margin-top:12px; clear:both; border:none; }
+.ozellik5 {  clear:both; display:block; padding-bottom:15px;  }
+.ozellik5 .ozellik5content { position:absolute; width:535px; border:1px solid #ccc; padding:10px;}
+.ozellik5 img { border:1px solid black; }
+.decodedFormFields td { padding:2px; }
+.decodedFormFields .td1,.decodedFormFields .td2 { font-weight:bold; }
+.decodedFormFields .td2 { padding-right:10px; padding-left:10px; }

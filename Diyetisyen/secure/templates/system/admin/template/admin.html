@@ -1,0 +1,388 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Plastico Admin Panel</title>
+    
+    <!-- Stylesheets START -->
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/ui.tabs.css" type="text/css" media="print, projection, screen" />
+    <link rel="stylesheet" href="css/jqtransform.css" type="text/css" media="all" />
+    <!-- Stylesheets END -->
+    
+    <!-- Javascript Libraries START -->
+    <script src="js/jquery-1.2.6.js" type="text/javascript"></script>
+    <script src="js/ui.core.js" type="text/javascript"></script>
+    <script src="js/ui.tabs.js" type="text/javascript"></script>
+    <script src="js/jquery.jqtransform.min.js" type="text/javascript"></script>
+    <script src="js/foradmin.js" type="text/javascript"></script>
+    <!--[if IE 7]>
+    <link href="css/ie7.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if IE 6]>
+    <link href="css/ie6.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.ifixpng2.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('img[@src$=.png], #LogoType, #BodyTop, #BodyBottom').ifixpng();
+        });
+    </script>
+    <![endif]-->
+    <!-- Javascript Libraries END -->
+
+</head>
+<body>
+
+<div id="BodyWrap">
+    <div id="BodyTop"></div>
+    <div id="BodyContent">
+        <div id="Header">
+            <div id="LogoType"></div>
+            <div id="WelcomeBar">
+                <div class="WelcomeRows"><img src="images/icons/welcome.png" alt="WelcomeIcon" width="16" height="16" /> Welcome to <strong>Demo Administrator</strong> System</div>
+                <div class="WelcomeRows"><img src="images/icons/system.png" alt="SystemIcon" width="16" height="16" /> Messages <strong>12</strong> <a href="#">Read now?</a></div>
+                <div class="WelcomeRows"><img src="images/icons/lastlogin.png" alt="Last Login" width="14" height="16" /> Last Login 22:12  19/02/2008 </div>
+            </div> <!-- #WelcomeBar END -->
+
+            <div id="container-1" class="MainMenuBar">
+                <ul>
+                    <li><a href="#fragment-1"><span>General Settings</span></a></li>
+                    <li><a href="#fragment-2"><span>Server Settings</span></a></li>
+                    <li><a href="#fragment-3"><span>Products</span></a></li>
+                    <li><a href="#fragment-4"><span>User</span></a></li>
+                    <li><a href="#fragment-5"><span>Pages</span></a></li>
+                    <li><a href="#fragment-6"><span>News &amp; Modules</span></a></li>
+                </ul>
+            
+                <div id="fragment-1" class="SubMenuBar"> 
+                    <a href="#" class="Subber"><img src="images/icons/settings.png" width="16" height="16" border="0" alt="" /> Site Settings</a> 
+                    <a href="#" class="Subber"><img src="images/icons/modules.png" width="16" height="16" border="0" alt="" /> Module Settings</a> 
+                    <a href="#" class="Subber"><img src="images/icons/error.png" width="16" height="16" border="0" alt="" /> Permissions</a>
+                    <a href="#" class="Subber"><img src="images/icons/url.png" width="16" height="16" border="0" alt="" /> URL Protection</a> 
+                    <a href="#" class="Subber"><img src="images/icons/comments.png" width="16" height="16" border="0" alt="" /> Comments Settings</a> 
+                    <a href="#" class="Subber"><img src="images/icons/security.png" width="16" height="16" border="0" alt="" /> Security Settings</a>
+                </div>
+                
+                <div id="fragment-2">
+                    <a href="#" class="Subber"><img src="images/icons/images.png" width="16" height="16" border="0" alt="" /> Image Magic / GD</a> 
+                    <a href="#" class="Subber"><img src="images/icons/upload.png" width="16" height="16" border="0" alt="" /> Upload Parameters</a> 
+                    <a href="#" class="Subber"><img src="images/icons/captcha.png" width="16" height="16" border="0" alt="" /> Captcha Settings</a>
+                    <a href="#" class="Subber"><img src="images/icons/filebrowser.png" width="16" height="16" border="0" alt="" /> File Browser</a> 
+                </div>
+                
+                <div id="fragment-3">
+                    <a href="#" class="Subber"><img src="images/icons/add.png" width="16" height="16" border="0" alt="" /> Add Products</a> 
+                    <a href="#" class="Subber"><img src="images/icons/settings2.png" width="16" height="16" border="0" alt="" /> Products Settings</a> 
+                    <a href="#" class="Subber"><img src="images/icons/category.png" width="16" height="16" border="0" alt="" /> Add Category</a>
+                    <a href="#" class="Subber"><img src="images/icons/settings2.png" width="16" height="16" border="0" alt="" /> Category Settings</a> 
+                    <a href="#" class="Subber"><img src="images/icons/add.png" width="16" height="16" border="0" alt="" /> Campaign Products</a>
+                </div>
+                
+                <div id="fragment-4">
+                    <a href="#" class="Subber"><img src="images/icons/users.png" width="16" height="16" border="0" alt="" /> Manage Users</a> 
+                    <a href="#" class="Subber"><img src="images/icons/banned.png" width="16" height="16" border="0" alt="" /> Banned Users</a> 
+                    <a href="#" class="Subber"><img src="images/icons/admin.png" width="16" height="16" border="0" alt="" /> Administrators</a>
+                    <a href="#" class="Subber"><img src="images/icons/operator.png" width="16" height="16" border="0" alt="" /> Operators</a> 
+                </div>
+                
+                <div id="fragment-5">
+                    <a href="#" class="Subber"><img src="images/icons/add.png" width="16" height="16" border="0" alt="" /> Add Static Page</a> 
+                    <a href="#" class="Subber"><img src="images/icons/settings2.png" width="16" height="16" border="0" alt="" /> Page Settings</a> 
+                    <a href="#" class="Subber"><img src="images/icons/managepages.png" width="16" height="16" border="0" alt="" /> Manage Pages</a>
+                </div>
+                
+                <div id="fragment-6">
+                    <a href="#" class="Subber"><img src="images/icons/add.png" width="16" height="16" border="0" alt="" /> Add News</a> 
+                    <a href="#" class="Subber"><img src="images/icons/category.png" width="16" height="16" border="0" alt="" /> Add News Category</a> 
+                    <a href="#" class="Subber"><img src="images/icons/edit.png" width="16" height="16" border="0" alt="" /> Edit News Category</a>
+                    <a href="#" class="Subber"><img src="images/icons/install.png" width="16" height="16" border="0" alt="" /> Install Module</a> 
+                    <a href="#" class="Subber"><img src="images/icons/settings2.png" width="16" height="16" border="0" alt="" /> Manage Modules</a>
+                </div>
+            </div> <!-- .MainMenuBar END -->
+        </div>
+    
+        <div id="Leftside">
+        
+        	<!-- BLOCK START -->
+            <div class="DashboardHeader">Admin Panel Dashboard Overview</div>
+            <div class="DashboardContent">
+                <div class="DashboardBlock">
+                    <ul>
+                        <li>  Total Posts: <strong><a href="#">15</a></strong></li>
+                        <li> Total Comments: <strong><a href="#">340</a></strong></li>
+                        <li> Total Products: <strong><a href="#">2569</a></strong></li>
+                        <li> Visits Today: <strong><a href="#">230</a></strong></li>
+                    </ul>
+                </div>
+    
+                <div class="DashboardBlock">
+                    <ul>
+                        <li>  Online Users: <strong><a href="#">15</a></strong></li>
+                        <li> Pagerank: <strong><a href="#">4/2</a></strong></li>
+                        <li> Banned Users: <strong><a href="#">4</a></strong></li>
+                        <li> Static Pages: <strong><a href="#">24</a></strong></li>
+                    </ul>
+                </div>
+    
+                <div class="DashboardBlock">
+                    <ul>
+                        <li>  Total Members: <strong><a href="#">6543</a></strong></li>
+                        <li> Awaiting Members: <strong><a href="#">340</a></strong></li>
+                        <li> Security Level: <strong><a href="#">Custom</a></strong></li>
+                        <li> Total Visit: <strong><a href="#">1.896.758 Unique</a></strong></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="DashboardBottom"></div>
+            <!-- BLOCK END -->
+            
+    		<!-- BLOCK START -->
+            <div class="DashboardHeader">Your Block Title</div>
+            <div class="DashboardContent">
+                <div class="SideButton" style="margin-left:9px"> <img src="images/icons/add.png" width="16" height="16" alt="" /> <a href="add.html">Sample Product Form</a></div> 
+                <div class="SideButton" style="margin-left:9px"> <img src="images/icons/category.png" width="16" height="16" alt="" /> <a href="list.html">Sample List Page</a></div>
+            </div>
+            <div class="DashboardBottom"></div>
+    
+            <div class="DashboardHeader">Your Block Title</div>
+            <div class="DashboardContent">
+                <form action="./?" method="get">
+                    <div class="rowElem">
+                        <label class="formlabels">Textfield Type Area</label>
+                        <input type="text" name="inputtext"/>
+                    </div>
+                    <div class="rowElem">
+                        <label class="formlabels">Long Textfield Area</label>
+                        <input type="password" size="30" />
+                    </div>
+                    <div class="rowElem">
+                        <label class="formlabels">Text Password Area</label>
+                        <input type="password" />
+                    </div>
+                    <div class="rowElem">
+                        <label class="formlabels">Checkbox Set </label>
+                        <input type="checkbox" name="chbox" class="chbox" />
+                    </div>
+                    <div class="rowElem">
+                        <label class="formlabels">Radiobox Set:</label>
+                        <input type="radio" class="chbox" name="question" value="oui" checked="checked" />
+                        <label>Option one </label>
+                        <input type="radio" class="chbox" name="question" value="non" />
+                        <label>Option Two</label>
+                    </div>
+                    <div class="rowElem">
+                        <label class="formlabels">Textarea :</label>
+                        <textarea name="textarea" cols="40" rows="12"></textarea>
+                    </div>
+                    <div class="rowElem">
+                        <label class="formlabels">Select :</label>
+                        <select name="select">
+                            <option value="">Menu Option One</option>
+                            <option value="opt1">Menu Option Two</option>
+                            <option>Menu Option Three</option>
+                        </select>
+                    </div>
+                    <div class="rowElem">
+                        <label class="formlabels">Select Big Options:</label>
+                        <select name="select">
+                            <option value="">Menu Big Option</option>
+                            <option value="opt1">Big Option test line with more wordssss</option>
+                            <option value="opt2">Option 2</option>
+                            <option value="opt3">Option 3</option>
+                            <option value="opt4">Option 4</option>
+                            <option value="opt5">Option 5</option>
+                            <option value="opt6">Option 6</option>
+                            <option value="opt7">Option 7</option>
+                            <option value="opt8">Option 8</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="DashboardBottom"></div>
+    		<!-- BLOCK END -->
+            
+            <!-- WARNINGS START -->     
+            <div id="warning_okay" onclick="MM_changeProp('warning_okay','','display','none','DIV')"><img src="images/icons/48/ok.png" width="24" height="25" hspace="10" alt="" /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+            <div id="warning_error" onclick="MM_changeProp('warning_error','','display','none','DIV')"><img src="images/icons/48/error.png" width="22" height="21" hspace="10" alt="" /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+            <div id="warning_warn" onclick="MM_changeProp('warning_warn','','display','none','DIV')"><img src="images/icons/48/warning.png" width="24" height="22" hspace="10" alt="" /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+            <!-- WARNINGS END --> 
+    		
+            <!-- BLOCK START -->
+            <div class="DashboardHeader">Your Block Title</div>
+            <div class="DashboardContent">
+                <p>Block Content</p>
+            </div>
+            <div class="DashboardBottom"></div>
+            <!-- BLOCK END -->
+    
+    		<!-- BLOCK START -->
+            <div class="DashboardHeader">Your Block Title</div>
+            <div class="DashboardContent">
+            
+                <table width="99%" border="0" cellpadding="6" cellspacing="0">
+                    <tr class="trTitle">
+                        <td width="19%">Table Title 1</td>
+                        <td width="31%">Table Title 2</td>
+                        <td width="26%">Table Title 3</td>
+                        <td width="24%">Admin Functions</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td><strong>Peter Parker</strong></td>
+                        <td><a href="#">tony@spiderman.com</a></td>
+                        <td>Spiderman</td>
+                        <td align="left"><a href="#"><img src="images/icons/actions/02.png" alt="ADD" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/75.png" alt="VIEW" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/24.png" alt="EDIT" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/49.png" alt="INFO" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/01.png" alt="DELETE" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/7.png" alt="UP" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/8.png" alt="DOWN" width="16" height="16" border="0" /></a></td>
+                    </tr>
+                    <tr class="tr1">
+                        <td><strong>Clark Kent</strong></td>
+                        <td><a href="#">clark@superman.com</a></td>
+                        <td>Superman</td>
+                        <td align="left" ><a href="#"><img src="images/icons/actions/02.png" alt="ADD" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/75.png" alt="VIEW" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/24.png" alt="EDIT" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/49.png" alt="INFO" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/01.png" alt="DELETE" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/7.png" alt="UP" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/8.png" alt="DOWN" width="16" height="16" border="0" /></a></td>
+                    </tr>
+                    <tr class="tr2">
+                        <td><strong>Tony Stark</strong></td>
+                        <td><a href="#">tony@ironman.com</a></td>
+                        <td>Ironman</td>
+                        <td align="left"><a href="#"><img src="images/icons/actions/02.png" alt="ADD" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/75.png" alt="VIEW" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/24.png" alt="EDIT" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/49.png" alt="INFO" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/01.png" alt="DELETE" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/7.png" alt="UP" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/8.png" alt="DOWN" width="16" height="16" border="0" /></a></td>
+                    </tr>
+                    <tr class="tr1">
+                        <td><strong>Bruce Wayne</strong></td>
+                        <td><a href="#">bruce@batmanbegins.com</a></td>
+                        <td>Batman</td>
+                        <td align="left" ><a href="#"><img src="images/icons/actions/02.png" alt="ADD" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/75.png" alt="VIEW" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/24.png" alt="EDIT" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/49.png" alt="INFO" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/01.png" alt="DELETE" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/7.png" alt="UP" width="16" height="16" border="0" /></a> <a href="#"><img src="images/icons/actions/8.png" alt="DOWN" width="16" height="16" border="0" /></a></td>
+                    </tr>
+                </table>    
+            </div>
+            <div class="DashboardBottom"></div>
+    		<!-- BLOCK END -->
+            
+            <!-- BLOCK START -->    
+            <div class="DashboardHeader">Your Block Title</div>
+            <div class="DashboardContent">
+                <div class="NavigationNums">
+                    <span class="NavBack"><a href="#">&laquo; back</a></span>
+                    <span class="NavPassive"><a href="#">1</a></span>
+                    <span class="NavPassive"><a href="#">2</a></span>
+                    <span class="NavPassive"><a href="#">3</a></span>
+                    <span class="NavActive"><a href="#">4</a></span>
+                    <span class="NavPassive"><a href="#">5</a></span>
+                    <span class="NavPassive"><a href="#">6</a></span>
+                    <span class="NavPassive"><a href="#">7</a></span>
+                    <span class="NavPassive"><a href="#">8</a></span>
+                    <span class="NavBack"><a href="#">next &raquo;</a></span>
+                </div>    
+            </div>
+            <div class="DashboardBottom"></div>
+    		<!-- BLOCK END -->
+
+        </div> <!-- #LeftSide END -->
+    
+        <div id="RightSide">
+        
+        	<!-- Shortcuts START -->
+            <div class="ShortcutButton">
+                <img src="images/icons/48/settings.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Settings</div>
+            </div>
+            <div class="ShortcutButton">
+                <img src="images/icons/48/news.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">News</div>
+            </div>
+            <div class="ShortcutButton">
+                <img src="images/icons/48/modules.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Modules</div>
+            </div>    
+            <div class="ShortcutButton">
+                <img src="images/icons/48/pages.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Pages</div>
+            </div>
+            <div class="ShortcutButton">
+                <img src="images/icons/48/security.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Security</div>
+            </div>
+            <div class="ShortcutButton">
+                <img src="images/icons/48/users.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Users</div>
+            </div>           
+            <div class="ShortcutButton">
+                <img src="images/icons/48/permissions.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Permissions</div>
+            </div>
+            <div class="ShortcutButton">
+                <img src="images/icons/48/protection.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Protection</div>
+            </div>
+            <div class="ShortcutButton">
+                <img src="images/icons/48/seo.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Seo</div>
+            </div>
+            <!-- Shortcuts END -->
+            
+            <!-- Form Button Sets START -->
+            <div class="RightTitles"><img src="images/icons/right.png" width="16" height="16" alt="" /> Form Button Sets</div>
+            <p>Here you can use form fields and button sets can be found in various places. </p>
+            <p><span><input type="button" class="SubmitButtons" value="Confirm" /></span><span><input type="button" class="CancelButtons"  value="Cancel" /></span></p>
+            <p><span><input type="button" class="ResetButtons" value="Reset" /></span></p>
+        	<!-- Form Button Sets END -->
+            
+            <!-- Right Button Sets START -->
+            <div class="RightTitles"><img src="images/icons/right.png" width="16" height="16" alt="" /> Right Button Sets</div>
+            <p>Here You can use right block  button sets can be <br />
+            found in various places. </p>
+            
+            <div class="SideButton" onclick="MM_showHideLayers('PopDialog','','show')"> <img src="images/icons/right.png" width="16" height="16" alt="" /> Open Dialog Window</div>
+            <div class="SideButtonDisable"> <img src="images/icons/right_disable.png" width="16" height="16" alt="" /> Active Side Disable Button</div>
+            <div class="SideButton"> <img src="images/icons/right.png" width="16" height="16" alt="" /> Active Side Bar Button</div>
+            <!-- Right Button Sets END -->
+            
+            <!-- Photo Album START -->
+            <div class="RightTitles"><img src="images/icons/right.png" width="16" height="16" alt="" /> Photo Albums</div>
+            <p>You can manage your photo album sets.</p>
+            
+            <div class="SideButton" style="margin-left:9px"> <img src="images/icons/add.png" width="16" height="16" alt="" /> Add Album</div>
+            <div class="ShortcutButton"> <img src="images/icons/48/pics.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Album 1</div>
+            </div>
+            <div class="ShortcutButton"><img src="images/icons/48/pics.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Album 2</div>
+            </div>
+            <div class="ShortcutButton"><img src="images/icons/48/pics.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Album 3</div>
+            </div>
+            <div class="ShortcutButton"><img src="images/icons/48/pics.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Album 4</div>
+            </div>
+            <div class="ShortcutButton"><img src="images/icons/48/pics.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Album 5</div>
+            </div>
+            <div class="ShortcutButton"><img src="images/icons/48/pics.png" width="48" height="48" alt="" class="ShortcutIcons"/>
+                <div class="ShortcutsText">Album 1</div>
+            </div>
+            <!-- Photo Album END -->
+            
+        </div> <!-- #RightSide END -->
+        <div class="RightBlockBottom"></div>
+        
+        
+    </div> <!-- #BodyContent END -->
+    
+    <div id="BodyBottom"></div>
+    
+    <div id="Copyright">Plastico Admin Panel designed by <a href="http://www.cenkakyildiz.com">cenkakyildiz.com</a> | 2009</div>
+    
+    <div id="PopDialog">
+        <div class="PopTitle">
+            Welcome to Plastico Admin Panel
+        </div>
+        <div class="PopDesc">
+            <div id="result_box" dir="ltr">
+                <p>You can write  to this window warning text. Forms to submit data in the field or you  can check messages while providing the user with a very simple method  without the use of jQuery you can use this window. <a href="add.html">See sample product page. </a><a href="list.html">Sample list page</a></p>
+            <p><span><input type="button" class="SubmitButtons" onclick="MM_showHideLayers('PopDialog','','hide')" value="Confirm" /></span> <span><input type="button" class="CancelButtons" onclick="MM_showHideLayers('PopDialog','','hide')" value="Cancel" /></span></p>
+            </div> <!-- #result_box END -->
+        </div> <!-- .PopTitle END -->
+    </div> <!-- #PopDialog END -->
+    
+</div> <!-- #BodyWrap END -->
+
+</body>
+</html>
